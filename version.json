@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "build_date": "2025-11-08T00:00:00Z",
+  "platforms": {
+    "webext": "1.0.0",
+    "android": "1.0.0",
+    "ios": "1.0.0"
+  }
+}
