@@ -1,11 +1,11 @@
-# Calendar Extractor — iOS App
+# Jaco Calendar — iOS App
 
-> Extract → Preview → Add  
+> Text → Calendar  
 > Version 1.0.0 (build ios)
 
 ## Overview
 
-Extract calendar events from natural language text anywhere. Calendar Extractor uses AI to parse event details and add them to your calendar with a simple workflow.
+Extract calendar events from natural language text anywhere. Jaco Calendar uses AI to parse event details and add them to your calendar with a simple workflow.
 
 **Device compatibility**: iOS 14.0+
 
@@ -24,7 +24,7 @@ Extract calendar events from natural language text anywhere. Calendar Extractor 
 
 ## How to Use
 
-- **Share Extension**: Share text from any app to Calendar Extractor
+- **Share Extension**: Share text from any app to Jaco Calendar
 - **Main App**: Open the app to enter event text
 - **Siri Shortcuts**: Create custom shortcuts for quick event creation
 
@@ -48,4 +48,4 @@ Extract calendar events from natural language text anywhere. Calendar Extractor 
 
 ---
 
-Built with ❤️ by the Calendar Extractor team
+Built with ❤️ by the Jaco Calendar team

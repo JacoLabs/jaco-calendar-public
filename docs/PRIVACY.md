@@ -4,7 +4,7 @@ Last updated: November 8, 2025
 
 ## Overview
 
-Calendar Extractor respects your privacy and is committed to protecting your personal information.
+Jaco Calendar respects your privacy and is committed to protecting your personal information.
 
 ## Data Collection
 

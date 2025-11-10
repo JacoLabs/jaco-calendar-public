@@ -1,17 +1,18 @@
 # Public Export Status
 
-**Generated**: 2025-11-09T03:26:46.717Z  
-**Git Commit**: `e1c15e932a2da5d5a8b4812c9b0e45b4bac24645`  
+**Generated**: 2025-11-10T03:30:47.212Z  
+**Git Commit**: `4c696683937394c381592564c364d7a5b7547e94`  
 **Git Branch**: `HEAD`  
 
 ## Export Summary
 
-- **Files copied**: 10
+- **Files copied**: 11
 - **Files skipped**: 0
-- **Total entries**: 10
+- **Total entries**: 11
 
 ## Exported Files
 
+- `README.md` → `README.md`
 - `browser-extension/dist` → `webext/build`
 - `browser-extension/manifest.json` → `webext/manifest.json`
 - `browser-extension/README.md` → `webext/README.md`

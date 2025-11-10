@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Calendar Event Creator",
+  "name": "Jaco Calendar",
   "version": "1.0.0",
   "description": "Create calendar events from selected text using natural language processing",
   
@@ -22,7 +22,7 @@
   
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Calendar Event Creator",
+    "default_title": "Jaco Calendar",
     "default_icon": {
       "16": "assets/icon16.png",
       "48": "assets/icon48.png",

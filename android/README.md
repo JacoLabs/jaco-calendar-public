@@ -1,11 +1,11 @@
-# Calendar Extractor — Android App
+# Jaco Calendar — Android App
 
-> Extract → Preview → Add  
+> Text → Calendar  
 > Version 1.0.0 (build android)
 
 ## Overview
 
-Extract calendar events from natural language text anywhere. Calendar Extractor uses AI to parse event details and add them to your calendar with a simple workflow.
+Extract calendar events from natural language text anywhere. Jaco Calendar uses AI to parse event details and add them to your calendar with a simple workflow.
 
 **Device compatibility**: Android 8.0+
 
@@ -24,7 +24,7 @@ Extract calendar events from natural language text anywhere. Calendar Extractor 
 
 ## How to Use
 
-- **Share Intent**: Share text from any app to Calendar Extractor
+- **Share Intent**: Share text from any app to Jaco Calendar
 - **Main Activity**: Open the app directly to enter event text
 - **Widget**: Add a home screen widget for quick access (coming soon)
 
@@ -48,4 +48,4 @@ Extract calendar events from natural language text anywhere. Calendar Extractor 
 
 ---
 
-Built with ❤️ by the Calendar Extractor team
+Built with ❤️ by the Jaco Calendar team
