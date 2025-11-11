@@ -7,9 +7,60 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- **Comprehensive Documentation Consolidation** (2025-11-09)
+  - Consolidated 170+ .md files into ~40 essential files (75% reduction)
+  - Created clear documentation hierarchy
+  - Merged duplicate setup guides, cleanup summaries, and development logs
+  - Archived completed project documentation (export pipeline, cleanup summaries)
+
+- **OpenAI Preference Update** (2025-11-09)
+  - Changed LLM provider priority: OpenAI > Groq > Ollama
+  - Clarified that OpenAI is optional (API works great with regex-only)
+  - Created comprehensive OPENAI_SETUP.md guide
+  - Updated validation script to reflect optional LLM usage
+
+- **Hybrid Parsing Clarification** (2025-11-09)
+  - Documented that regex parsing handles 80%+ of events (no LLM needed)
+  - LLM only used for low confidence (<0.6) enhancement
+  - Created HYBRID_PARSING_EXPLAINED.md guide
+  - Clarified cost model: ~$0.006 per 1000 parses in hybrid mode
+
+### Changed
+- **Development Workflow** (2025-11-09)
+  - Deprecated Flask dev server (`api_server.py`)
+  - Created `run_dev_server.py` to run production FastAPI locally
+  - Updated documentation to use production API for most development
+  - Consolidated validation scripts into single `validate.py`
+
+- **Code Cleanup** (2025-11-09)
+  - Archived 27 duplicate/obsolete files (Phase 1 & 2)
+  - Consolidated test HTML files: 13 → 3 essential files
+  - Consolidated validation scripts: 4 → 1 comprehensive script
+  - Removed duplicate lightweight servers
+
 ### Fixed
+- **Timezone Bug** (2025-11-09)
+  - Fixed "9am" parsing as "4am" in local timezone
+  - Root cause: Flask dev server ignored `timezone_offset` parameter
+  - Solution: Migrated to production FastAPI with proper timezone handling
+  - Updated API to respect user's timezone for all time parsing
+
 - **Structured Text Parsing**: Added debugging for complex event text parsing
 - **Title Extraction**: Improved handling of "Event Name DATE ... LOCATION ..." format
+
+### Documentation
+- **Architecture Documentation** (2025-11-09)
+  - Created PARSER_ARCHITECTURE.md explaining parser hierarchy
+  - Created ARCHITECTURAL_ISSUES_AUDIT.md identifying duplicate code
+  - Created DEVELOPMENT.md for developer quick start
+  - Consolidated cleanup documentation into CHANGELOG
+
+### Deprecated
+- `api_server.py` - Flask dev server (use `run_dev_server.py` instead)
+- `services/datetime_parser.py` - Old parser (use RegexDateExtractor)
+- `services/comprehensive_datetime_parser.py` - Old parser (use RegexDateExtractor)
+- `services/master_event_parser.py` - Old parser (use EventParser)
 
 ## [1.2.0] - 2025-10-07
 

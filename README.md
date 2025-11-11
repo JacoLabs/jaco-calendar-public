@@ -23,9 +23,9 @@ Choose your platform:
 
 ### Browser Extension
 - **Supported Browsers**: Chrome, Firefox, Edge (version 88+)
-- **Installation**: Load the extension from `webext/` folder
+- **Installation**: Load the extension from `browser-extension/` folder
 - **Usage**: Right-click selected text or use the extension popup
-- [Full Documentation](webext/README.md)
+- [Full Documentation](browser-extension/README.md)
 
 ### Android
 - **Requirements**: Android 8.0+ (API level 26)
@@ -59,8 +59,8 @@ For details, see our [Privacy Policy](docs/PRIVACY.md)
 ## Documentation
 
 - [Privacy Policy](docs/PRIVACY.md)
-- [Changelog](docs/CHANGELOG.md)
-- [Browser Extension Guide](webext/README.md)
+- [Changelog](CHANGELOG.md)
+- [Browser Extension Guide](browser-extension/README.md)
 - [Android App Guide](android/README.md)
 - [iOS App Guide](ios/README.md)
 
